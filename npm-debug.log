@@ -1,0 +1,582 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'graphql',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of E:\grapql-playground\package.json
+5 warn package.json grapql-playground@1.0.0 No repository field.
+6 warn package.json grapql-playground@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\babel\package.json
+8 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\babel-core\package.json
+9 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\babel-loader\package.json
+10 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\babel-preset-es2015\package.json
+11 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\babel-preset-react\package.json
+12 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\babel-preset-stage-0\package.json
+13 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\body-parser\package.json
+14 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\cookie-parser\package.json
+15 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\express\package.json
+16 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\express-graphql\package.json
+17 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\graphql\package.json
+18 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\mongoose\package.json
+19 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\react\package.json
+20 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\react-dom\package.json
+21 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\webpack\package.json
+22 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\@risingstack\graffiti\package.json
+23 verbose installManyTop reading scoped package data from E:\grapql-playground\node_modules\@risingstack\graffiti-mongoose\package.json
+24 verbose readDependencies loading dependencies from E:\grapql-playground\package.json
+25 verbose install graphql is installed as 0.7.0
+26 silly cache add args [ 'graphql@^0.7.0', null ]
+27 verbose cache add spec graphql@^0.7.0
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'graphql@^0.7.0',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'graphql',
+28 silly cache add   rawSpec: '^0.7.0',
+28 silly cache add   spec: '>=0.7.0 <0.8.0',
+28 silly cache add   type: 'range' }
+29 silly addNamed graphql@>=0.7.0 <0.8.0
+30 verbose addNamed ">=0.7.0 <0.8.0" is a valid semver range for graphql
+31 silly addNameRange { name: 'graphql', range: '>=0.7.0 <0.8.0', hasData: false }
+32 silly mapToRegistry name graphql
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'graphql',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'graphql',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/graphql
+37 verbose addNameRange registry:https://registry.npmjs.org/graphql not in flight; fetching
+38 verbose request uri https://registry.npmjs.org/graphql
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 5:04:31 PM
+41 verbose request id 08dcfd1c291160b1
+42 verbose etag "16UY2YJFEGZEGTDS604BRMT16"
+43 http request GET https://registry.npmjs.org/graphql
+44 http 304 https://registry.npmjs.org/graphql
+45 verbose headers { date: 'Wed, 14 Sep 2016 11:34:31 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   etag: '"16UY2YJFEGZEGTDS604BRMT16"',
+45 verbose headers   age: '235',
+45 verbose headers   connection: 'close',
+45 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+45 verbose headers   'x-cache': 'HIT',
+45 verbose headers   'x-cache-hits': '1',
+45 verbose headers   'x-timer': 'S1473852871.822888,VS0,VE0',
+45 verbose headers   vary: 'Accept-Encoding' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Wed, 14 Sep 2016 11:34:31 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     etag: '"16UY2YJFEGZEGTDS604BRMT16"',
+46 silly get     age: '235',
+46 silly get     connection: 'close',
+46 silly get     'x-served-by': 'cache-sin6921-SIN',
+46 silly get     'x-cache': 'HIT',
+46 silly get     'x-cache-hits': '1',
+46 silly get     'x-timer': 'S1473852871.822888,VS0,VE0',
+46 silly get     vary: 'Accept-Encoding' } ]
+47 verbose etag https://registry.npmjs.org/graphql from cache
+48 verbose get saving graphql to C:\Users\an326742\AppData\Roaming\npm-cache\registry.npmjs.org\graphql\.cache.json
+49 verbose correctMkdir C:\Users\an326742\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+50 silly addNameRange number 2 { name: 'graphql', range: '>=0.7.0 <0.8.0', hasData: true }
+51 silly addNameRange versions [ 'graphql',
+51 silly addNameRange   [ '0.0.2',
+51 silly addNameRange     '0.1.0',
+51 silly addNameRange     '0.1.1',
+51 silly addNameRange     '0.1.2',
+51 silly addNameRange     '0.1.3',
+51 silly addNameRange     '0.1.4',
+51 silly addNameRange     '0.1.5',
+51 silly addNameRange     '0.1.6',
+51 silly addNameRange     '0.1.7',
+51 silly addNameRange     '0.1.8',
+51 silly addNameRange     '0.1.9',
+51 silly addNameRange     '0.1.10',
+51 silly addNameRange     '0.1.11',
+51 silly addNameRange     '0.1.12',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.2.1',
+51 silly addNameRange     '0.2.2',
+51 silly addNameRange     '0.2.3',
+51 silly addNameRange     '0.2.4',
+51 silly addNameRange     '0.2.5',
+51 silly addNameRange     '0.2.6',
+51 silly addNameRange     '0.3.0',
+51 silly addNameRange     '0.4.1',
+51 silly addNameRange     '0.4.2',
+51 silly addNameRange     '0.4.3',
+51 silly addNameRange     '0.4.4',
+51 silly addNameRange     '0.4.5',
+51 silly addNameRange     '0.4.6',
+51 silly addNameRange     '0.4.7',
+51 silly addNameRange     '0.4.8',
+51 silly addNameRange     '0.4.9',
+51 silly addNameRange     '0.4.10',
+51 silly addNameRange     '0.4.11',
+51 silly addNameRange     '0.4.12',
+51 silly addNameRange     '0.4.13',
+51 silly addNameRange     '0.4.14',
+51 silly addNameRange     '0.4.15',
+51 silly addNameRange     '0.4.16',
+51 silly addNameRange     '0.4.17',
+51 silly addNameRange     '0.4.18',
+51 silly addNameRange     '0.5.0-beta.1',
+51 silly addNameRange     '0.5.0',
+51 silly addNameRange     '0.6.0',
+51 silly addNameRange     '0.6.1',
+51 silly addNameRange     '0.6.2',
+51 silly addNameRange     '0.7.0' ] ]
+52 silly addNamed graphql@0.7.0
+53 verbose addNamed "0.7.0" is a plain semver version for graphql
+54 silly cache afterAdd graphql@0.7.0
+55 verbose afterAdd C:\Users\an326742\AppData\Roaming\npm-cache\graphql\0.7.0\package\package.json not in flight; writing
+56 verbose correctMkdir C:\Users\an326742\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+57 verbose afterAdd C:\Users\an326742\AppData\Roaming\npm-cache\graphql\0.7.0\package\package.json written
+58 silly install resolved [ { name: 'graphql',
+58 silly install resolved     version: '0.7.0',
+58 silly install resolved     description: 'A Query Language and Runtime which can target any service.',
+58 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+58 silly install resolved     license: 'BSD-3-Clause',
+58 silly install resolved     main: 'index.js',
+58 silly install resolved     homepage: 'https://github.com/graphql/graphql-js',
+58 silly install resolved     bugs: { url: 'https://github.com/graphql/graphql-js/issues' },
+58 silly install resolved     repository:
+58 silly install resolved      { type: 'git',
+58 silly install resolved        url: 'git+ssh://git@github.com/graphql/graphql-js.git' },
+58 silly install resolved     options: { mocha: '--require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js' },
+58 silly install resolved     scripts:
+58 silly install resolved      { test: 'npm run lint && npm run check && npm run testonly',
+58 silly install resolved        testonly: 'babel-node ./node_modules/.bin/_mocha $npm_package_options_mocha',
+58 silly install resolved        t: 'babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload',
+58 silly install resolved        lint: 'eslint src',
+58 silly install resolved        check: 'flow check',
+58 silly install resolved        'check-cover': 'for file in {src/*.js,src/**/*.js}; do echo $file; flow coverage $file; done',
+58 silly install resolved        build: 'babel src --ignore __tests__ --out-dir dist/ && cp package.json dist/',
+58 silly install resolved        watch: 'babel-node ./resources/watch.js',
+58 silly install resolved        cover: 'babel-node ./node_modules/.bin/isparta cover --root src --report html _mocha -- $npm_package_options_mocha',
+58 silly install resolved        'cover:lcov': 'babel-node ./node_modules/.bin/isparta cover --root src --report lcovonly _mocha -- $npm_package_options_mocha',
+58 silly install resolved        preversion: '. ./resources/checkgit.sh && npm test',
+58 silly install resolved        prepublish: '. ./resources/prepublish.sh' },
+58 silly install resolved     dependencies: { iterall: '1.0.2' },
+58 silly install resolved     devDependencies:
+58 silly install resolved      { 'babel-cli': '6.10.1',
+58 silly install resolved        'babel-eslint': '6.1.0',
+58 silly install resolved        'babel-plugin-check-es2015-constants': '6.8.0',
+58 silly install resolved        'babel-plugin-syntax-async-functions': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-class-properties': '6.10.2',
+58 silly install resolved        'babel-plugin-transform-es2015-arrow-functions': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-block-scoped-functions': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-block-scoping': '6.10.1',
+58 silly install resolved        'babel-plugin-transform-es2015-classes': '6.9.0',
+58 silly install resolved        'babel-plugin-transform-es2015-computed-properties': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-destructuring': '6.9.0',
+58 silly install resolved        'babel-plugin-transform-es2015-duplicate-keys': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-function-name': '6.9.0',
+58 silly install resolved        'babel-plugin-transform-es2015-literals': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-modules-commonjs': '6.10.3',
+58 silly install resolved        'babel-plugin-transform-es2015-object-super': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-parameters': '6.9.0',
+58 silly install resolved        'babel-plugin-transform-es2015-shorthand-properties': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-spread': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-es2015-template-literals': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-flow-strip-types': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-object-rest-spread': '6.8.0',
+58 silly install resolved        'babel-plugin-transform-regenerator': '6.9.0',
+58 silly install resolved        chai: '3.5.0',
+58 silly install resolved        'chai-json-equal': '0.0.1',
+58 silly install resolved        'chai-subset': '1.2.2',
+58 silly install resolved        coveralls: '2.11.9',
+58 silly install resolved        eslint: '3.1.1',
+58 silly install resolved        'eslint-plugin-babel': '3.3.0',
+58 silly install resolved        'eslint-plugin-flow-vars': '0.4.0',
+58 silly install resolved        'eslint-plugin-flowtype': '2.3.1',
+58 silly install resolved        'flow-bin': '0.29.0',
+58 silly install resolved        isparta: '4.0.0',
+58 silly install resolved        mocha: '2.5.3',
+58 silly install resolved        sane: '1.3.4' },
+58 silly install resolved     gitHead: 'd85fa9f7c8e2fe4f05489ba40f333c326d22166e',
+58 silly install resolved     _id: 'graphql@0.7.0',
+58 silly install resolved     _shasum: '5701492838edc6c673c184075eb8f06b11a7e451',
+58 silly install resolved     _from: 'graphql@>=0.7.0 <0.8.0',
+58 silly install resolved     _npmVersion: '3.10.3',
+58 silly install resolved     _nodeVersion: '6.4.0',
+58 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+58 silly install resolved     dist:
+58 silly install resolved      { shasum: '5701492838edc6c673c184075eb8f06b11a7e451',
+58 silly install resolved        tarball: 'https://registry.npmjs.org/graphql/-/graphql-0.7.0.tgz' },
+58 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+58 silly install resolved     _npmOperationalInternal:
+58 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+58 silly install resolved        tmp: 'tmp/graphql-0.7.0.tgz_1472167912626_0.3299356517381966' },
+58 silly install resolved     directories: {},
+58 silly install resolved     _resolved: 'https://registry.npmjs.org/graphql/-/graphql-0.7.0.tgz',
+58 silly install resolved     readme: 'ERROR: No README data found!' } ]
+59 info install graphql@0.7.0 into E:\grapql-playground
+60 info installOne graphql@0.7.0
+61 verbose installOne of graphql to E:\grapql-playground not in flight; installing
+62 verbose correctMkdir C:\Users\an326742\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+63 verbose lock using C:\Users\an326742\AppData\Roaming\npm-cache\_locks\graphql-96793640a5364495.lock for E:\grapql-playground\node_modules\graphql
+64 silly install write writing graphql 0.7.0 to E:\grapql-playground\node_modules\graphql
+65 verbose unbuild node_modules\graphql
+66 info preuninstall graphql@0.7.0
+67 info uninstall graphql@0.7.0
+68 verbose unbuild rmStuff graphql@0.7.0 from E:\grapql-playground\node_modules
+69 info postuninstall graphql@0.7.0
+70 silly gentlyRm E:\grapql-playground\node_modules\graphql is being purged from base E:\grapql-playground
+71 verbose gentlyRm don't care about contents; nuking E:\grapql-playground\node_modules\graphql
+72 silly vacuum-fs purging E:\grapql-playground\node_modules\graphql
+73 silly vacuum-fs quitting because other entries in E:\grapql-playground\node_modules
+74 verbose tar unpack C:\Users\an326742\AppData\Roaming\npm-cache\graphql\0.7.0\package.tgz
+75 verbose tar unpacking to E:\grapql-playground\node_modules\graphql
+76 silly gentlyRm E:\grapql-playground\node_modules\graphql is being purged
+77 verbose gentlyRm don't care about contents; nuking E:\grapql-playground\node_modules\graphql
+78 silly gunzTarPerm modes [ '777', '666' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+83 silly gunzTarPerm extractEntry LICENSE
+84 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+85 silly gunzTarPerm extractEntry graphql.js
+86 silly gunzTarPerm modified mode [ 'graphql.js', 436, 438 ]
+87 silly gunzTarPerm extractEntry index.js
+88 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+89 silly gunzTarPerm extractEntry error/GraphQLError.js
+90 silly gunzTarPerm modified mode [ 'error/GraphQLError.js', 436, 438 ]
+91 silly gunzTarPerm extractEntry error/formatError.js
+92 silly gunzTarPerm modified mode [ 'error/formatError.js', 436, 438 ]
+93 silly gunzTarPerm extractEntry error/index.js
+94 silly gunzTarPerm modified mode [ 'error/index.js', 436, 438 ]
+95 silly gunzTarPerm extractEntry error/locatedError.js
+96 silly gunzTarPerm modified mode [ 'error/locatedError.js', 436, 438 ]
+97 silly gunzTarPerm extractEntry error/syntaxError.js
+98 silly gunzTarPerm modified mode [ 'error/syntaxError.js', 436, 438 ]
+99 silly gunzTarPerm extractEntry PATENTS
+100 silly gunzTarPerm modified mode [ 'PATENTS', 436, 438 ]
+101 silly gunzTarPerm extractEntry execution/execute.js
+102 silly gunzTarPerm modified mode [ 'execution/execute.js', 436, 438 ]
+103 silly gunzTarPerm extractEntry execution/index.js
+104 silly gunzTarPerm modified mode [ 'execution/index.js', 436, 438 ]
+105 silly gunzTarPerm extractEntry execution/values.js
+106 silly gunzTarPerm modified mode [ 'execution/values.js', 436, 438 ]
+107 silly gunzTarPerm extractEntry jsutils/find.js
+108 silly gunzTarPerm modified mode [ 'jsutils/find.js', 436, 438 ]
+109 silly gunzTarPerm extractEntry jsutils/invariant.js
+110 silly gunzTarPerm modified mode [ 'jsutils/invariant.js', 436, 438 ]
+111 silly gunzTarPerm extractEntry jsutils/isNullish.js
+112 silly gunzTarPerm modified mode [ 'jsutils/isNullish.js', 436, 438 ]
+113 silly gunzTarPerm extractEntry jsutils/keyMap.js
+114 silly gunzTarPerm modified mode [ 'jsutils/keyMap.js', 436, 438 ]
+115 silly gunzTarPerm extractEntry jsutils/keyValMap.js
+116 silly gunzTarPerm modified mode [ 'jsutils/keyValMap.js', 436, 438 ]
+117 silly gunzTarPerm extractEntry jsutils/quotedOrList.js
+118 silly gunzTarPerm modified mode [ 'jsutils/quotedOrList.js', 436, 438 ]
+119 silly gunzTarPerm extractEntry jsutils/suggestionList.js
+120 silly gunzTarPerm modified mode [ 'jsutils/suggestionList.js', 436, 438 ]
+121 silly gunzTarPerm extractEntry language/ast.js
+122 silly gunzTarPerm modified mode [ 'language/ast.js', 436, 438 ]
+123 silly gunzTarPerm extractEntry language/index.js
+124 silly gunzTarPerm modified mode [ 'language/index.js', 436, 438 ]
+125 silly gunzTarPerm extractEntry language/kinds.js
+126 silly gunzTarPerm modified mode [ 'language/kinds.js', 436, 438 ]
+127 silly gunzTarPerm extractEntry language/lexer.js
+128 silly gunzTarPerm modified mode [ 'language/lexer.js', 436, 438 ]
+129 silly gunzTarPerm extractEntry language/location.js
+130 silly gunzTarPerm modified mode [ 'language/location.js', 436, 438 ]
+131 silly gunzTarPerm extractEntry language/parser.js
+132 silly gunzTarPerm modified mode [ 'language/parser.js', 436, 438 ]
+133 silly gunzTarPerm extractEntry language/printer.js
+134 silly gunzTarPerm modified mode [ 'language/printer.js', 436, 438 ]
+135 silly gunzTarPerm extractEntry language/source.js
+136 silly gunzTarPerm modified mode [ 'language/source.js', 436, 438 ]
+137 silly gunzTarPerm extractEntry language/visitor.js
+138 silly gunzTarPerm modified mode [ 'language/visitor.js', 436, 438 ]
+139 silly gunzTarPerm extractEntry utilities/TypeInfo.js
+140 silly gunzTarPerm modified mode [ 'utilities/TypeInfo.js', 436, 438 ]
+141 silly gunzTarPerm extractEntry utilities/concatAST.js
+142 silly gunzTarPerm modified mode [ 'utilities/concatAST.js', 436, 438 ]
+143 silly gunzTarPerm extractEntry utilities/extendSchema.js
+144 silly gunzTarPerm modified mode [ 'utilities/extendSchema.js', 436, 438 ]
+145 silly gunzTarPerm extractEntry utilities/getOperationAST.js
+146 silly gunzTarPerm modified mode [ 'utilities/getOperationAST.js', 436, 438 ]
+147 silly gunzTarPerm extractEntry utilities/buildClientSchema.js
+148 silly gunzTarPerm modified mode [ 'utilities/buildClientSchema.js', 436, 438 ]
+149 silly gunzTarPerm extractEntry utilities/introspectionQuery.js
+150 silly gunzTarPerm modified mode [ 'utilities/introspectionQuery.js', 436, 438 ]
+151 silly gunzTarPerm extractEntry utilities/isValidJSValue.js
+152 silly gunzTarPerm modified mode [ 'utilities/isValidJSValue.js', 436, 438 ]
+153 silly gunzTarPerm extractEntry utilities/isValidLiteralValue.js
+154 silly gunzTarPerm modified mode [ 'utilities/isValidLiteralValue.js', 436, 438 ]
+155 silly gunzTarPerm extractEntry utilities/schemaPrinter.js
+156 silly gunzTarPerm modified mode [ 'utilities/schemaPrinter.js', 436, 438 ]
+157 silly gunzTarPerm extractEntry utilities/separateOperations.js
+158 silly gunzTarPerm modified mode [ 'utilities/separateOperations.js', 436, 438 ]
+159 silly gunzTarPerm extractEntry utilities/buildASTSchema.js
+160 silly gunzTarPerm modified mode [ 'utilities/buildASTSchema.js', 436, 438 ]
+161 silly gunzTarPerm extractEntry utilities/typeComparators.js
+162 silly gunzTarPerm modified mode [ 'utilities/typeComparators.js', 436, 438 ]
+163 silly gunzTarPerm extractEntry utilities/astFromValue.js
+164 silly gunzTarPerm modified mode [ 'utilities/astFromValue.js', 436, 438 ]
+165 silly gunzTarPerm extractEntry utilities/typeFromAST.js
+166 silly gunzTarPerm modified mode [ 'utilities/typeFromAST.js', 436, 438 ]
+167 silly gunzTarPerm extractEntry utilities/assertValidName.js
+168 silly gunzTarPerm modified mode [ 'utilities/assertValidName.js', 436, 438 ]
+169 silly gunzTarPerm extractEntry utilities/valueFromAST.js
+170 silly gunzTarPerm modified mode [ 'utilities/valueFromAST.js', 436, 438 ]
+171 silly gunzTarPerm extractEntry utilities/index.js
+172 silly gunzTarPerm modified mode [ 'utilities/index.js', 436, 438 ]
+173 silly gunzTarPerm extractEntry type/definition.js
+174 silly gunzTarPerm modified mode [ 'type/definition.js', 436, 438 ]
+175 silly gunzTarPerm extractEntry type/directives.js
+176 silly gunzTarPerm modified mode [ 'type/directives.js', 436, 438 ]
+177 silly gunzTarPerm extractEntry type/index.js
+178 silly gunzTarPerm modified mode [ 'type/index.js', 436, 438 ]
+179 silly gunzTarPerm extractEntry type/introspection.js
+180 silly gunzTarPerm modified mode [ 'type/introspection.js', 436, 438 ]
+181 silly gunzTarPerm extractEntry type/scalars.js
+182 silly gunzTarPerm modified mode [ 'type/scalars.js', 436, 438 ]
+183 silly gunzTarPerm extractEntry type/schema.js
+184 silly gunzTarPerm modified mode [ 'type/schema.js', 436, 438 ]
+185 silly gunzTarPerm extractEntry validation/index.js
+186 silly gunzTarPerm modified mode [ 'validation/index.js', 436, 438 ]
+187 silly gunzTarPerm extractEntry validation/specifiedRules.js
+188 silly gunzTarPerm modified mode [ 'validation/specifiedRules.js', 436, 438 ]
+189 silly gunzTarPerm extractEntry validation/validate.js
+190 silly gunzTarPerm modified mode [ 'validation/validate.js', 436, 438 ]
+191 silly gunzTarPerm extractEntry validation/rules/ArgumentsOfCorrectType.js
+192 silly gunzTarPerm modified mode [ 'validation/rules/ArgumentsOfCorrectType.js', 436, 438 ]
+193 silly gunzTarPerm extractEntry validation/rules/LoneAnonymousOperation.js
+194 silly gunzTarPerm modified mode [ 'validation/rules/LoneAnonymousOperation.js', 436, 438 ]
+195 silly gunzTarPerm extractEntry validation/rules/NoFragmentCycles.js
+196 silly gunzTarPerm modified mode [ 'validation/rules/NoFragmentCycles.js', 436, 438 ]
+197 silly gunzTarPerm extractEntry validation/rules/NoUndefinedVariables.js
+198 silly gunzTarPerm modified mode [ 'validation/rules/NoUndefinedVariables.js', 436, 438 ]
+199 silly gunzTarPerm extractEntry validation/rules/NoUnusedFragments.js
+200 silly gunzTarPerm modified mode [ 'validation/rules/NoUnusedFragments.js', 436, 438 ]
+201 silly gunzTarPerm extractEntry validation/rules/KnownTypeNames.js
+202 silly gunzTarPerm modified mode [ 'validation/rules/KnownTypeNames.js', 436, 438 ]
+203 silly gunzTarPerm extractEntry validation/rules/OverlappingFieldsCanBeMerged.js
+204 silly gunzTarPerm modified mode [ 'validation/rules/OverlappingFieldsCanBeMerged.js', 436, 438 ]
+205 silly gunzTarPerm extractEntry validation/rules/PossibleFragmentSpreads.js
+206 silly gunzTarPerm modified mode [ 'validation/rules/PossibleFragmentSpreads.js', 436, 438 ]
+207 silly gunzTarPerm extractEntry validation/rules/ProvidedNonNullArguments.js
+208 silly gunzTarPerm modified mode [ 'validation/rules/ProvidedNonNullArguments.js', 436, 438 ]
+209 silly gunzTarPerm extractEntry validation/rules/ScalarLeafs.js
+210 silly gunzTarPerm modified mode [ 'validation/rules/ScalarLeafs.js', 436, 438 ]
+211 silly gunzTarPerm extractEntry validation/rules/UniqueArgumentNames.js
+212 silly gunzTarPerm modified mode [ 'validation/rules/UniqueArgumentNames.js', 436, 438 ]
+213 silly gunzTarPerm extractEntry validation/rules/KnownFragmentNames.js
+214 silly gunzTarPerm modified mode [ 'validation/rules/KnownFragmentNames.js', 436, 438 ]
+215 silly gunzTarPerm extractEntry validation/rules/UniqueFragmentNames.js
+216 silly gunzTarPerm modified mode [ 'validation/rules/UniqueFragmentNames.js', 436, 438 ]
+217 silly gunzTarPerm extractEntry validation/rules/KnownDirectives.js
+218 silly gunzTarPerm modified mode [ 'validation/rules/KnownDirectives.js', 436, 438 ]
+219 silly gunzTarPerm extractEntry validation/rules/UniqueInputFieldNames.js
+220 silly gunzTarPerm modified mode [ 'validation/rules/UniqueInputFieldNames.js', 436, 438 ]
+221 silly gunzTarPerm extractEntry validation/rules/KnownArgumentNames.js
+222 silly gunzTarPerm modified mode [ 'validation/rules/KnownArgumentNames.js', 436, 438 ]
+223 silly gunzTarPerm extractEntry validation/rules/UniqueOperationNames.js
+224 silly gunzTarPerm modified mode [ 'validation/rules/UniqueOperationNames.js', 436, 438 ]
+225 silly gunzTarPerm extractEntry validation/rules/FragmentsOnCompositeTypes.js
+226 silly gunzTarPerm modified mode [ 'validation/rules/FragmentsOnCompositeTypes.js', 436, 438 ]
+227 silly gunzTarPerm extractEntry validation/rules/UniqueVariableNames.js
+228 silly gunzTarPerm modified mode [ 'validation/rules/UniqueVariableNames.js', 436, 438 ]
+229 silly gunzTarPerm extractEntry validation/rules/FieldsOnCorrectType.js
+230 silly gunzTarPerm modified mode [ 'validation/rules/FieldsOnCorrectType.js', 436, 438 ]
+231 silly gunzTarPerm extractEntry validation/rules/VariablesAreInputTypes.js
+232 silly gunzTarPerm modified mode [ 'validation/rules/VariablesAreInputTypes.js', 436, 438 ]
+233 silly gunzTarPerm extractEntry validation/rules/DefaultValuesOfCorrectType.js
+234 silly gunzTarPerm modified mode [ 'validation/rules/DefaultValuesOfCorrectType.js', 436, 438 ]
+235 silly gunzTarPerm extractEntry validation/rules/VariablesInAllowedPosition.js
+236 silly gunzTarPerm modified mode [ 'validation/rules/VariablesInAllowedPosition.js', 436, 438 ]
+237 silly gunzTarPerm extractEntry validation/rules/NoUnusedVariables.js
+238 silly gunzTarPerm modified mode [ 'validation/rules/NoUnusedVariables.js', 436, 438 ]
+239 verbose write writing to E:\grapql-playground\node_modules\graphql\package.json
+240 info preinstall graphql@0.7.0
+241 verbose readDependencies loading dependencies from E:\grapql-playground\node_modules\graphql\package.json
+242 silly prepareForInstallMany adding iterall@1.0.2 from graphql dependencies
+243 verbose readDependencies loading dependencies from E:\grapql-playground\node_modules\graphql\package.json
+244 silly cache add args [ 'iterall@1.0.2', null ]
+245 verbose cache add spec iterall@1.0.2
+246 silly cache add parsed spec Result {
+246 silly cache add   raw: 'iterall@1.0.2',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'iterall',
+246 silly cache add   rawSpec: '1.0.2',
+246 silly cache add   spec: '1.0.2',
+246 silly cache add   type: 'version' }
+247 silly addNamed iterall@1.0.2
+248 verbose addNamed "1.0.2" is a plain semver version for iterall
+249 silly mapToRegistry name iterall
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'iterall',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   name: 'iterall',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/iterall
+254 verbose addNameVersion registry:https://registry.npmjs.org/iterall not in flight; fetching
+255 verbose request uri https://registry.npmjs.org/iterall
+256 verbose request no auth needed
+257 info attempt registry request try #1 at 5:04:32 PM
+258 verbose etag "GOF3ORMTAWHSIG2DTP7OQ0YX"
+259 http request GET https://registry.npmjs.org/iterall
+260 http 304 https://registry.npmjs.org/iterall
+261 verbose headers { date: 'Wed, 14 Sep 2016 11:34:32 GMT',
+261 verbose headers   via: '1.1 varnish',
+261 verbose headers   'cache-control': 'max-age=300',
+261 verbose headers   etag: '"GOF3ORMTAWHSIG2DTP7OQ0YX"',
+261 verbose headers   age: '193',
+261 verbose headers   connection: 'close',
+261 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+261 verbose headers   'x-cache': 'HIT',
+261 verbose headers   'x-cache-hits': '1',
+261 verbose headers   'x-timer': 'S1473852872.983828,VS0,VE0',
+261 verbose headers   vary: 'Accept-Encoding' }
+262 silly get cb [ 304,
+262 silly get   { date: 'Wed, 14 Sep 2016 11:34:32 GMT',
+262 silly get     via: '1.1 varnish',
+262 silly get     'cache-control': 'max-age=300',
+262 silly get     etag: '"GOF3ORMTAWHSIG2DTP7OQ0YX"',
+262 silly get     age: '193',
+262 silly get     connection: 'close',
+262 silly get     'x-served-by': 'cache-sin6921-SIN',
+262 silly get     'x-cache': 'HIT',
+262 silly get     'x-cache-hits': '1',
+262 silly get     'x-timer': 'S1473852872.983828,VS0,VE0',
+262 silly get     vary: 'Accept-Encoding' } ]
+263 verbose etag https://registry.npmjs.org/iterall from cache
+264 verbose get saving iterall to C:\Users\an326742\AppData\Roaming\npm-cache\registry.npmjs.org\iterall\.cache.json
+265 verbose correctMkdir C:\Users\an326742\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+266 silly cache afterAdd iterall@1.0.2
+267 verbose afterAdd C:\Users\an326742\AppData\Roaming\npm-cache\iterall\1.0.2\package\package.json not in flight; writing
+268 verbose correctMkdir C:\Users\an326742\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+269 verbose afterAdd C:\Users\an326742\AppData\Roaming\npm-cache\iterall\1.0.2\package\package.json written
+270 silly install resolved [ { name: 'iterall',
+270 silly install resolved     version: '1.0.2',
+270 silly install resolved     description: 'Minimal zero-dependency utilities for using JavaScript Iterables in all environments.',
+270 silly install resolved     main: 'index.js',
+270 silly install resolved     scripts:
+270 silly install resolved      { test: 'npm run lint && npm run testonly && npm run testdocs',
+270 silly install resolved        lint: 'standard --verbose index.js test.js',
+270 silly install resolved        testonly: 'nyc --check-coverage --statements 100 node test.js',
+270 silly install resolved        testdocs: 'if [ "$(documentation readme -dgs API | grep -vF \'up to date\')" ]; then echo \'Must run: npm run docs\'; exit 1; fi;',
+270 silly install resolved        docs: 'documentation readme -gs API',
+270 silly install resolved        travis: 'npm run test && nyc report --reporter=text-lcov | coveralls' },
+270 silly install resolved     repository:
+270 silly install resolved      { type: 'git',
+270 silly install resolved        url: 'git+ssh://git@github.com/leebyron/iterall.git' },
+270 silly install resolved     files: [ 'index.js', 'index.js.flow', 'index.d.ts', 'LICENSE' ],
+270 silly install resolved     keywords: [ 'es6', 'iterator', 'iterable', 'polyfill', 'for-of' ],
+270 silly install resolved     author:
+270 silly install resolved      { name: 'Lee Byron',
+270 silly install resolved        email: 'lee@leebyron.com',
+270 silly install resolved        url: 'http://leebyron.com/' },
+270 silly install resolved     license: 'MIT',
+270 silly install resolved     bugs: { url: 'https://github.com/leebyron/iterall/issues' },
+270 silly install resolved     homepage: 'https://github.com/leebyron/iterall#readme',
+270 silly install resolved     devDependencies:
+270 silly install resolved      { coveralls: '2.11.9',
+270 silly install resolved        documentation: '4.0.0-beta5',
+270 silly install resolved        nyc: '6.6.1',
+270 silly install resolved        standard: '7.1.2' },
+270 silly install resolved     gitHead: '8b55d27b3f386751ef3d7a84aa9ec38b1a30a3c8',
+270 silly install resolved     _id: 'iterall@1.0.2',
+270 silly install resolved     _shasum: '41a2e96ce9eda5e61c767ee5dc312373bb046e91',
+270 silly install resolved     _from: 'iterall@1.0.2',
+270 silly install resolved     _npmVersion: '3.8.9',
+270 silly install resolved     _nodeVersion: '6.2.0',
+270 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+270 silly install resolved     dist:
+270 silly install resolved      { shasum: '41a2e96ce9eda5e61c767ee5dc312373bb046e91',
+270 silly install resolved        tarball: 'https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz' },
+270 silly install resolved     maintainers: [ [Object] ],
+270 silly install resolved     _npmOperationalInternal:
+270 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+270 silly install resolved        tmp: 'tmp/iterall-1.0.2.tgz_1467240891724_0.4510333016514778' },
+270 silly install resolved     directories: {},
+270 silly install resolved     _resolved: 'https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz',
+270 silly install resolved     readme: 'ERROR: No README data found!' } ]
+271 info install iterall@1.0.2 into E:\grapql-playground\node_modules\graphql
+272 info installOne iterall@1.0.2
+273 verbose installOne of iterall to E:\grapql-playground\node_modules\graphql not in flight; installing
+274 verbose correctMkdir C:\Users\an326742\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+275 verbose lock using C:\Users\an326742\AppData\Roaming\npm-cache\_locks\iterall-bece801a79ef695d.lock for E:\grapql-playground\node_modules\graphql\node_modules\iterall
+276 silly install write writing iterall 1.0.2 to E:\grapql-playground\node_modules\graphql\node_modules\iterall
+277 verbose unbuild node_modules\graphql\node_modules\iterall
+278 silly gentlyRm E:\grapql-playground\node_modules\graphql\node_modules\iterall is being purged from base E:\grapql-playground
+279 verbose gentlyRm don't care about contents; nuking E:\grapql-playground\node_modules\graphql\node_modules\iterall
+280 verbose tar unpack C:\Users\an326742\AppData\Roaming\npm-cache\iterall\1.0.2\package.tgz
+281 verbose tar unpacking to E:\grapql-playground\node_modules\graphql\node_modules\iterall
+282 silly gentlyRm E:\grapql-playground\node_modules\graphql\node_modules\iterall is being purged
+283 verbose gentlyRm don't care about contents; nuking E:\grapql-playground\node_modules\graphql\node_modules\iterall
+284 silly gunzTarPerm modes [ '777', '666' ]
+285 silly gunzTarPerm extractEntry package.json
+286 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+287 silly gunzTarPerm extractEntry LICENSE
+288 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+289 silly gunzTarPerm extractEntry index.js
+290 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+291 silly gunzTarPerm extractEntry index.d.ts
+292 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 438 ]
+293 silly gunzTarPerm extractEntry index.js.flow
+294 silly gunzTarPerm modified mode [ 'index.js.flow', 420, 438 ]
+295 verbose write writing to E:\grapql-playground\node_modules\graphql\node_modules\iterall\package.json
+296 info preinstall iterall@1.0.2
+297 verbose readDependencies loading dependencies from E:\grapql-playground\node_modules\graphql\node_modules\iterall\package.json
+298 verbose readDependencies loading dependencies from E:\grapql-playground\node_modules\graphql\node_modules\iterall\package.json
+299 silly install resolved []
+300 verbose about to build E:\grapql-playground\node_modules\graphql\node_modules\iterall
+301 info build E:\grapql-playground\node_modules\graphql\node_modules\iterall
+302 info linkStuff iterall@1.0.2
+303 silly linkStuff iterall@1.0.2 has E:\grapql-playground\node_modules\graphql\node_modules as its parent node_modules
+304 verbose linkBins iterall@1.0.2
+305 verbose linkMans iterall@1.0.2
+306 verbose rebuildBundles iterall@1.0.2
+307 info install iterall@1.0.2
+308 info postinstall iterall@1.0.2
+309 verbose unlock done using C:\Users\an326742\AppData\Roaming\npm-cache\_locks\iterall-bece801a79ef695d.lock for E:\grapql-playground\node_modules\graphql\node_modules\iterall
+310 verbose about to build E:\grapql-playground\node_modules\graphql
+311 info build E:\grapql-playground\node_modules\graphql
+312 info linkStuff graphql@0.7.0
+313 silly linkStuff graphql@0.7.0 has E:\grapql-playground\node_modules as its parent node_modules
+314 verbose linkBins graphql@0.7.0
+315 verbose linkMans graphql@0.7.0
+316 verbose rebuildBundles graphql@0.7.0
+317 verbose rebuildBundles [ 'iterall' ]
+318 info install graphql@0.7.0
+319 info postinstall graphql@0.7.0
+320 verbose unlock done using C:\Users\an326742\AppData\Roaming\npm-cache\_locks\graphql-96793640a5364495.lock for E:\grapql-playground\node_modules\graphql
+321 verbose validateInstall loading E:\grapql-playground\package.json for validation
+322 verbose stack Error: The package graphql@0.7.0 does not satisfy its siblings' peerDependencies requirements!
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+322 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+322 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+322 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+322 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+323 verbose cwd E:\grapql-playground
+324 error Windows_NT 6.3.9600
+325 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "graphql" "--save"
+326 error node v4.4.7
+327 error npm  v2.15.8
+328 error code EPEERINVALID
+329 error peerinvalid The package graphql@0.7.0 does not satisfy its siblings' peerDependencies requirements!
+329 error peerinvalid Peer @risingstack/graffiti-mongoose@5.3.0 wants graphql@^0.7.0
+329 error peerinvalid Peer express-graphql@0.5.4 wants graphql@^0.5.0-b || ^0.6.0 || ^0.7.0
+329 error peerinvalid Peer @risingstack/graffiti@3.1.1 wants graphql@^0.6.2
+330 verbose exit [ 1, true ]
