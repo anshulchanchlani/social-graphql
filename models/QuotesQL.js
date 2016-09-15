@@ -1,7 +1,12 @@
-import mongoose from 'mongoose';
-import Quote from './Quotes';
-import {getSchema} from '@risingstack/graffiti-mongoose';
+var graphql = require('graphql');
 
-mongoose.connect('mongodb://localhost/27017/quotesdb');
+var quoteType = new graphql.GraphQLObjectType({
+	name:'Quote',
+	fields:{
+		_id:{type: new graphql.GraphQLNonNull(graphql.GraphQLID)},
+		quote:{type:   graphql.GraphQLString},
+		author:{type:   graphql.GraphQLString}
+	}
+});
 
-export default getSchema([Quote]);
+module.exports = quoteType;

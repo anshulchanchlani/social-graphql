@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import React,{Component} from 'react';
-import Dummy from './dummy';
+import QuotesContainer from './QuotesContainer';
 
 
 var dummyItem={
@@ -10,7 +10,7 @@ var dummyItem={
 export default class App extends React.Component{
 	render(){
 		return(
-				<Dummy item={dummyItem} />
+				<QuotesContainer/>
 			)
 	}
 }
